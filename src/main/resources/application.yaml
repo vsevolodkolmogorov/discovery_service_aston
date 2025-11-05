@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-service
+  profiles:
+    active: default
+
+server:
+  port: 8761
+
+config:
+  server:
+    url: http://localhost:8888
